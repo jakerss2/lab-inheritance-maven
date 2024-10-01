@@ -9,6 +9,7 @@ public class BoundedCounter extends BasicCounter {
     this.bound = bound;
   }
 
+  @Override
   public void increment() throws Exception {
     if (this.count + 1 > this.bound) {
       throw new Exception();

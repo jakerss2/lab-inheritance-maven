@@ -13,7 +13,7 @@ public class DoubleCounter extends BasicCounter {
    * Increment count twice
    */
   @Override
-  public void increment() { 
+  public void increment() throws Exception { 
     super.increment();
     super.increment();
   } // increment()

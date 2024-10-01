@@ -26,7 +26,7 @@ public class BasicCounter implements Counter {
   /**
    * Increments the counter by one.
    */
-  public void increment() {
+  public void increment() throws Exception {
       this.count++;
   } // increment()
 
