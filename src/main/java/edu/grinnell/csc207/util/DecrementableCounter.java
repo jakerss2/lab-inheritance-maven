@@ -10,11 +10,12 @@ public class DecrementableCounter extends BasicCounter {
   /**
    * Create a new decrementable counter.
    *
-   * @param start
+   * @param startCount
    *   The initial value of the counter.
    */
-  public DecrementableCounter(int start) {
-    super(start);
+  public DecrementableCounter(int startCount) {
+    super(startCount);
+    System.err.printf("DecrementableCounter(%d)\n", startCount);
   } // DecrementableCounter(int)
 
   /**
